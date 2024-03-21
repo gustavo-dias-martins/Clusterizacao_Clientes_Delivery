@@ -32,11 +32,11 @@ Objetivos detalhados:
 ## Estrutura do repositório
 
 ```
-├── case
-├── data
-├── images
-├── notebooks
-├── reports
+├── Case
+├── Data
+├── Images
+├── Notebooks
+├── Reports
 ```
 
 - Na pasta `data` estão os dados utilizados no projeto. O arquivo `ml_project1_data.csv` é o dataset utilizado originalmente. Os demais arquivos são os datasets gerados durante o projeto.
@@ -55,27 +55,29 @@ Com um pipeline com pré-processamento, PCA e K-Means, a base foi segmentada em 
 Análise por cluster:
 
 - Cluster 0: 
-  - Renda alta 
-  - gasto alto 
-  - muito provalmente não tem filhos
-  - mais propenso a aceitar campanhas
-  - cluster sem pessoas com escolaridade básica
-  - sem um perfil de idade que se destaque
-
-- Cluster 1: 
   - Renda baixa 
   - gasto baixo 
-  - provalmente tem filhos
-  - baixa propensão a aceitar campanhas
+  - provalmente tem filhos (85% dos clientes do cluster tem filhos, 50% dos clientes que tem filhos estão no cluster)
+  - baixa propensão a aceitar campanhas (92% dos clientes do cluster não aceitaram campanhas, 15% dos clientes que aceitaram campanhas estão no cluster)
   - único cluster com porcentagem significativa de pessoas com escolaridade básica
-  - pessoas mais jovens
+  - pessoas mais jovens (55% das pessoas entre 18-30 anos estão no cluster 1)
+  
+
+- Cluster 1: 
+  - Renda alta 
+  - gasto alto 
+  - muito provalmente não tem filhos (85% dos clientes do cluster não tem filhos, 76% dos clientes que não tem filhos estão no cluster)
+  - mais propenso a aceitar campanhas (43% dos clientes do cluster aceitaram campanhas, maior % em relação aos outros clusters, 53% dos clientes que aceitaram campanhas estão no cluster)
+  - cluster sem pessoas com escolaridade básica
+  - sem um perfil de idade que se destaque
+  
 
 - Cluster 2: 
   - Renda intermediária
   - gasto intermediário
-  - provalmente tem filhos
-  - pode aceitar campanhas
-  - pessoas com idade mais elevada
+  - provalmente tem filhos (94% dos clientes do cluster tem filhos, 44% dos clientes que tem filhos estão no cluster)
+  - pode aceitar campanhas (81% dos clientes do cluster não aceitaram campanhas, 32% dos clientes que aceitaram campanhas estão no cluster)
+  - pessoas com idade mais elevada (A % de representatividade desse cluster ao longo das idades vai aumentando, começando com 11% entre 18-30 até chegar em 44% entre 46-60)
 
 Posteriormente, três modelos de classificação foram treinados para prever se um cliente irá comprar o produto oferecido na campanha. Os modelos utilizados foram:
 
