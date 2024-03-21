@@ -5,10 +5,10 @@
 
 Considere uma empresa bem estabelecida que atua no setor de varejo de alimentos. Atualmente, eles têm cerca de vários milhares de clientes registrados e atendem quase um milhão de consumidores por ano. Eles vendem produtos de 5 grandes categorias: vinhos, carnes, frutas exóticas, peixes especialmente preparados e produtos doces. Estes podem ser divididos ainda mais em produtos de *gold* e regulares. Os clientes podem encomendar e adquirir produtos por meio de 3 canais de vendas: lojas físicas, catálogos e site da empresa. Globalmente, a empresa teve receitas sólidas e uma linha de fundo saudável nos últimos 3 anos, mas as perspectivas de crescimento dos lucros para os próximos 3 anos não são promissoras... Por esse motivo, várias iniciativas estratégicas estão sendo consideradas para inverter essa situação. Um deles é melhorar o desempenho das atividades de marketing, com foco especial em campanhas de marketing.
 
-![pairplot](images/pairplot_clusters.png)
+![pairplot](Images/pairplot_clusters.png)
 
 
-Descrição completa do case [aqui](case/README.md).
+Descrição completa do case [aqui](Case/README.md).
 
 <p align="center"> 
   <a href="https://www.linkedin.com/in/gustavodiasmartins/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
@@ -50,7 +50,7 @@ Uma descrição detalhada do dataset utilizado está disponível [aqui](data/REA
 
 Com um pipeline com pré-processamento, PCA e K-Means, a base foi segmentada em 3 clusters:
 
-![clusters](images/pca_clusters.png)
+![clusters](Images/pca_clusters.png)
 
 Análise por cluster:
 
@@ -85,7 +85,7 @@ Posteriormente, três modelos de classificação foram treinados para prever se 
 
 Um DummyClassifier foi utilizado como baseline. Os modelos foram comparados com base em 6 métricas:
 
-![comparing_models](images/comparing_models.png)
+![comparing_models](Images/comparing_models.png)
 
 Com base nessa comparação, o modelo de Regressão Logística foi escolhido para passar por uma otimização de hiperparâmetros. 
 
