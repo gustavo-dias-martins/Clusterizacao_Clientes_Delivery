@@ -16,9 +16,9 @@ Descrição completa do case [aqui](Case/README.md).
 
 ## Objetivos
 
-O objetivo deste projeto é mostrar aos alunos como estruturar um projeto para um processo seletivo que foi aplicado na vida real.
+O objetivo deste projeto é mostrar como estruturar um projeto para um processo seletivo que foi aplicado na vida real.
 
-Durante o curso, mostrei a importância de realizar o pré-processamento dos dados, bem como a importância de se realizar a análise exploratória dos dados. Muito foi discutido sobre o que deve ser apresentado para em um documento técnico e o que deve ser apresentado em uma apresentação para um público não técnico.
+Durante o projeto, mostrei a importância de realizar o pré-processamento dos dados, bem como a importância de se realizar a análise exploratória dos dados.
 
 Objetivos detalhados:
 
@@ -39,14 +39,14 @@ Objetivos detalhados:
 ├── Reports
 ```
 
-- Na pasta `data` estão os dados utilizados no projeto. O arquivo `ml_project1_data.csv` é o dataset utilizado originalmente. Os demais arquivos são os datasets gerados durante o projeto.
-- Na pasta `images` estão as imagens utilizadas neste README.
-- Na pasta `notebooks` estão os notebooks com o desenvolvimento do projeto.
-- Na pasta `reports` estão os relatórios gerados durante o projeto utilizando a biblioteca [ydata-profiling](https://github.com/ydataai/ydata-profiling).
+- Na pasta `Data` estão os dados utilizados no projeto. O arquivo `ml_project1_data.csv` é o dataset utilizado originalmente. Os demais arquivos são os datasets gerados durante o projeto.
+- Na pasta `Images` estão as imagens utilizadas neste README.
+- Na pasta `Notebooks` estão os notebooks com o desenvolvimento do projeto.
+- Na pasta `Reports` estão os relatórios gerados durante o projeto utilizando a biblioteca [ydata-profiling](https://github.com/ydataai/ydata-profiling).
 
 ## Detalhes do dataset utilizado e resumo dos resultados
 
-Uma descrição detalhada do dataset utilizado está disponível [aqui](data/README.md).
+Uma descrição detalhada do dataset utilizado está disponível [aqui](Data/README.md).
 
 Com um pipeline com pré-processamento, PCA e K-Means, a base foi segmentada em 3 clusters:
 
